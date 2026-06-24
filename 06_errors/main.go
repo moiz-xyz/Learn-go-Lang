@@ -14,6 +14,7 @@ func getUser(id int) (string, error) {
 
 	return "Moiz", nil
 }
+
 func divide(a, b int) (int, error) {
 	if b == 0 {
 		return 0, fmt.Errorf("cannot divide by zero")
